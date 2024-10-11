@@ -31,9 +31,11 @@ L.Control.Rilievi = L.Control.extend({
     div.style.maxWidth = '250px'
     div.innerHTML = `<h3>Rilievi s.r.l.</h3>
     <p>Mappa dei lavori. Clicca su un icona per visualizzare i dettagli</p>
-    <a href="#contatti">
+    <hr />
+    <a href="#contatti" class="mx-auto" style="width: 130px">
       Contatti
-    </a>`;
+    </a>
+    `;
     return div;
   },
 
